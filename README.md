@@ -214,7 +214,7 @@ The empirical conclusions:
 
 - 📊 **The classifier internalizes SimCLR geometry within ~10 epochs at 1% labels (within 2 epochs at 10% labels).** Explicit geometric supervision becomes redundant after this convergence.
 
-- 📊 **Per-class anchor scarcity makes geometric pseudo-labels confidently wrong on minority/visually-similar classes.** Especially Early_blight (37%) and Leaf_Mold (45%) accuracy.
+- **Per-class anchor scarcity makes geometric pseudo-labels confidently wrong on minority/visually-similar classes.** Especially Early_blight (37%) and Leaf_Mold (45%) accuracy.
 
 ---
 
