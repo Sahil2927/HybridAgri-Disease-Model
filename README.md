@@ -208,7 +208,7 @@ The empirical conclusions:
 
 - **The naive SimCLR + MixMatch hybrid achieves the best 10%-label result of any method.** SSL + semi-SSL composes effectively when labeled signal is sufficient.
 
-- ❌ **The same hybrid fails at 1% labels by 4.3 points.** Composability inverts at extreme label scarcity.
+- **The same hybrid fails at 1% labels by 4.3 points.** Composability inverts at extreme label scarcity.
 
 - ❌ **GEPS in any of its three principled formulations does not recover the 1% gap.** Geometric pseudo-labels are not the right intervention for this failure mode.
 
