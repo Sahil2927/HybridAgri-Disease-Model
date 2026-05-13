@@ -206,7 +206,7 @@ The empirical conclusions:
 
 - **ImageNet-initialized SimCLR continued pretraining beats both ImageNet alone and from-scratch SimCLR.** The 4-point k-NN gap (80% → 84%) confirms domain-specific SSL adds value over generic pretraining.
 
-- ✅ **The naive SimCLR + MixMatch hybrid achieves the best 10%-label result of any method.** SSL + semi-SSL composes effectively when labeled signal is sufficient.
+- **The naive SimCLR + MixMatch hybrid achieves the best 10%-label result of any method.** SSL + semi-SSL composes effectively when labeled signal is sufficient.
 
 - ❌ **The same hybrid fails at 1% labels by 4.3 points.** Composability inverts at extreme label scarcity.
 
