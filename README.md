@@ -210,7 +210,7 @@ The empirical conclusions:
 
 - **The same hybrid fails at 1% labels by 4.3 points.** Composability inverts at extreme label scarcity.
 
-- ❌ **GEPS in any of its three principled formulations does not recover the 1% gap.** Geometric pseudo-labels are not the right intervention for this failure mode.
+- **GEPS in any of its three principled formulations does not recover the 1% gap.** Geometric pseudo-labels are not the right intervention for this failure mode.
 
 - 📊 **The classifier internalizes SimCLR geometry within ~10 epochs at 1% labels (within 2 epochs at 10% labels).** Explicit geometric supervision becomes redundant after this convergence.
 
